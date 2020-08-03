@@ -82,10 +82,8 @@ SOFTWARE.
       <source-file src="src/ios/AppDelegate+BranchSdk.m" />
 
       <podspec>
-          <config>
-              <source url="https://github.com/CocoaPods/Specs.git"/>
-          </config>
-          <pods>
+          <config/>
+          <pods use-frameworks="true">
               <pod name="Branch" spec="~> 0.31.3" />
           </pods>
       </podspec>
